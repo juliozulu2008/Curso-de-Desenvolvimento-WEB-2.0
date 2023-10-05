@@ -1,0 +1,1 @@
+<h2>Registrar screen</h2>

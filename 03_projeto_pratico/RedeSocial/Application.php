@@ -8,7 +8,7 @@ class Application
     private function setApp()
     {
         $loadName = 'RedeSocial\Controllers\\'; //Contruindo a classe a ser chamada baseada nessa string
-        $url = explode('/', $_GET['url']); // pegar as urls
+        $url = explode('/', @$_GET['url']); // pegar as urls
         if ($url[0] == '') {
             $loadName .= 'Home'; // Loadaname caso nao tenha rota joga para o Home
         } else {
