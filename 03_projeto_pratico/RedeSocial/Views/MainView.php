@@ -2,7 +2,7 @@
 
 namespace RedeSocial\Views;
 
-class MainView
+class MainView   //Clse de controller das Views
 {
     public static function render($filename)
     {

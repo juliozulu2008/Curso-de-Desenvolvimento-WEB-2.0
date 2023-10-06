@@ -11,7 +11,7 @@ class HomeController
             \RedeSocial\Views\MainView::render('home');
         } else {
             //Renderizar para Criar Conta.
-            \RedeSocial\Views\MainView::render('registrar');
+            \RedeSocial\Views\MainView::render('login');
         }
     }
 }
